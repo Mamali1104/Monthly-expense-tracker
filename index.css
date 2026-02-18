@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@layer utilities {
+  .hover-glow {
+    @apply transition duration-300;
+  }
+
+  .hover-glow:hover {
+    box-shadow:
+      0 0 10px rgba(45,212,191,0.4),
+      0 0 25px rgba(45,212,191,0.25);
+  }
+}
